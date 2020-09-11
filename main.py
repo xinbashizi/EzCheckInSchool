@@ -89,7 +89,7 @@ send_url = f"https://sc.ftqq.com/{sckey}.send"
 
 data = {
     "text": title,
-    "desp": content
+    "desp": content,
     "customerAppTypeRuleId": customerAppTypeRuleId,
 }
 req = requests.post(send_url, data=data)
