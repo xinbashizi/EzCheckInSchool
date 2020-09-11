@@ -28,6 +28,7 @@ else:
     print("现在是%d点%d分，打卡时间将自动打卡" %(now,time.localtime().tm_min))
     exit(0)
 
+print(customerAppTypeRuleId)
 # 随机温度(36.2~36.8)
 a = random.uniform(36.2, 36.4)
 temperature = round(a, 1)
