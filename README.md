@@ -6,7 +6,7 @@
 
 接下来抓包完美校园打卡内容，本文使用Fiddler代理s手机抓包
   
-fiddler没有手机客户端，都是安装在PC上，要实 现对手机上的程序抓包，则需要对PC上的fiddler和手机端做一些配置。步骤如下：
+fiddler没有手机客户端，都是安装在P C上，要实 现对手机上的程序抓包，则需要对PC上的fiddler和手机端做一些配置。步骤如下：
 
 https://www.cnblogs.com/wenbodeboke/p/9770771.html
 
