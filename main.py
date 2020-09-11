@@ -78,7 +78,7 @@ else:
 print(msg)
 # 微信通知
 
-title = msg + " " + customerAppTypeRuleId
+title = msg
 result = json.dumps(response.json(), sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
 content = f"""
 ```
