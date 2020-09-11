@@ -84,10 +84,10 @@ content = f"""
 ```
 {result}
 ```
-
+send_url = f"https://sc.ftqq.com/{SCKEY}.send"
 """
 data = {
     "text": title,
     "desp": content
 }
-req = requests.post(sckey, data=data)
+req = requests.post(send_url, data=data)
