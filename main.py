@@ -16,10 +16,10 @@ sckey = input()
 # 时间判断
 now = time.localtime().tm_hour + 8
 if (now >= 6) & (now < 8):
-    templateid = "clockSign1"
+    templateid = "clockSign3"
     customerAppTypeRuleId = 146
 elif (now >= 12) & (now < 18):
-    templateid = "clockSign1"
+    templateid = "clockSign3"
     customerAppTypeRuleId = 147
 elif (now >= 21) & (now< 22):
     templateid = "clockSign3"
