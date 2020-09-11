@@ -89,5 +89,6 @@ content = f"""
 data = {
     "text": title,
     "desp": content
+    "customerAppTypeRuleId": customerAppTypeRuleId
 }
 req = requests.post(sckey, data=data)
