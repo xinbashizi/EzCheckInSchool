@@ -84,7 +84,7 @@ content = f"""
 ```
 {result}
 ```
-send_url = f"https://sc.ftqq.com/{SCKEY}.send"
+send_url = f"https://sc.ftqq.com/{sckey}.send"
 """
 data = {
     "text": title,
