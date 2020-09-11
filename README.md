@@ -10,7 +10,7 @@ fiddler没有手机客户端，都是安装在PC上，要实 现对手机上的�
 
 https://www.cnblogs.com/wenbodeboke/p/9770771.html
 
-设置好手机代理后，打开完美校 园开始健康打卡（最好在指定的打卡时间打卡方便抓包），目标数据包为POST到`https://reportedh5.17wanxiao.com/sass/api/epmpics`的JSON
+设置好手机代理后，打开完美校 园开始健康打卡（最好在指定的打卡时间打 卡方便抓包），目标数据包为POST到`https://reportedh5.17wanxiao.com/sass/api/epmpics`的JSON
 格式如下：
 
 ```
