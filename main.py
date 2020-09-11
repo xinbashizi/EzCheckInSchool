@@ -78,7 +78,7 @@ else:
 print(msg)
 # 微信通知
 
-title = msg
+title = msg + " " + customerAppTypeRuleId
 result = json.dumps(response.json(), sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
 content = f"""
 ```
@@ -89,7 +89,7 @@ send_url = f"https://sc.ftqq.com/{sckey}.send"
 
 data = {
     "text": title,
-    "desp": content,
-    "customerAppTypeRuleId": customerAppTypeRuleId,
+    "desp": content
+    
 }
 req = requests.post(send_url, data=data)
