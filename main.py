@@ -84,8 +84,9 @@ content = f"""
 ```
 {result}
 ```
-send_url = f"https://sc.ftqq.com/{sckey}.send"
 """
+send_url = f"https://sc.ftqq.com/{sckey}.send"
+
 data = {
     "text": title,
     "desp": content
