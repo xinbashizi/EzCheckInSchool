@@ -68,6 +68,7 @@ jsons = {
 }
 # 提交打卡
 response = requests.post(sign_url, json=jsons)
+time.sleep(10)
 utcTime = (datetime.datetime.utcnow() + datetime.timedelta(hours=8))
 cstTime = utcTime.strftime("%H时%M分%S秒")
 print(response.text)
